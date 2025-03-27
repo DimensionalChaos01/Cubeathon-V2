@@ -26,8 +26,6 @@ public class gamemanager : MonoBehaviour
             Debug.Log("Game Over");
             Invoke(nameof(Restart), restartdelay);
         }
-
-        
     }
     void Restart()
     {
