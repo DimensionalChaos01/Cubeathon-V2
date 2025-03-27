@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: dbdc44359ebc24d42a0805ac03becc44, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 81f714daf7144784b8a2f42f1cd30927, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -1785,6 +1785,79 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4638338693078565240, guid: 1d7dc9a6619648c4eb9fcb33c187061a, type: 3}
   m_PrefabInstance: {fileID: 418687718}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &434773751
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: e5fabd50f9bc1f14397f9229d3cd2f1d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 54826.074
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e5fabd50f9bc1f14397f9229d3cd2f1d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 54826.074
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e5fabd50f9bc1f14397f9229d3cd2f1d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 54826.074
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e5fabd50f9bc1f14397f9229d3cd2f1d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2761
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e5fabd50f9bc1f14397f9229d3cd2f1d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e5fabd50f9bc1f14397f9229d3cd2f1d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3544
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e5fabd50f9bc1f14397f9229d3cd2f1d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.4713737
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e5fabd50f9bc1f14397f9229d3cd2f1d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e5fabd50f9bc1f14397f9229d3cd2f1d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.8819336
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e5fabd50f9bc1f14397f9229d3cd2f1d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e5fabd50f9bc1f14397f9229d3cd2f1d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e5fabd50f9bc1f14397f9229d3cd2f1d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -123.753
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e5fabd50f9bc1f14397f9229d3cd2f1d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e5fabd50f9bc1f14397f9229d3cd2f1d, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e5fabd50f9bc1f14397f9229d3cd2f1d, type: 3}
+      propertyPath: m_Name
+      value: Khan Battlecruiser
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e5fabd50f9bc1f14397f9229d3cd2f1d, type: 3}
 --- !u!1001 &438079243
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3553,7 +3626,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 2000
+  far clip plane: 20000
   field of view: 57.47908
   orthographic: 0
   orthographic size: 5
@@ -4803,7 +4876,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -1.495, z: 616}
-  m_LocalScale: {x: 20, y: 1, z: 1445.65}
+  m_LocalScale: {x: 20, y: 1, z: 1891.6332}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1334752701}
@@ -5375,7 +5448,7 @@ Transform:
   m_GameObject: {fileID: 1753125084}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
-  m_LocalPosition: {x: 1.7, y: 28.5, z: 1300.35}
+  m_LocalPosition: {x: 1.7, y: 28.5, z: 1522.1}
   m_LocalScale: {x: 20, y: 20, z: 10}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6333,3 +6406,4 @@ SceneRoots:
   - {fileID: 1996558692}
   - {fileID: 1753125089}
   - {fileID: 1782947521}
+  - {fileID: 434773751}
